@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background: url("curtain-g242a6ea93_1280.png");
+}
+.container{
+    width: 100%;
+    height: 70px;
+    /* background-color: rgb(35, 35, 226); */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: larger;
+}
+
+ul{
+    display: flex;
+    padding: 30px;
+}
+.inner{
+    height: 90vh;
+    width: 100%;
+    /* background: url("curtain-g242a6ea93_1280.png"); */
+}
+.left{
+    height: 260px;
+    width: 360px;
+    /* background-color: black; */
+    padding: 20px;
+}
+.right{
+
+    height: 360px;
+    width: 360px;
+    background-color: black;
+    object-fit: cover;
+     
+    /* background: url("https://static.toiimg.com/photo/msid-91154946/91154946.jpg?100682"); */
+
+}
+.heading{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 60px;
+}
+h1{
+    color: white;
+    padding: 10px;
+}
+h3{
+    color: white;
+    padding: 10px;
+}
+button{
+    height: 40px;
+    width: 70px;
+    padding: 10px; 
+    margin: 20px;
+    margin-left: 150px;
+    color: red;
+}
+.demo{
+    height: 360px;
+    width: 360px;
+    object-fit: cover;
+}
